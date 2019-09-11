@@ -1,29 +1,5 @@
 $minus-opacity: .85;
 
-@mixin ce-button($color) {
-	color: $color !important;
-	background-color: transparentize($color, $minus-opacity) !important;
-	border: 0 !important;
-	border-radius: .5rem !important;
-	
-	&:hover {
-		background-color: transparentize($color, $minus-opacity - 0.25) !important;
-	}
-}
-
-@each $color, $value in $theme-colors {
-	.btn-#{$color} {
-		@include ce-button($value);
-	}
-}
-
-code {
-	color: $success;
-	background-color: transparentize($success, 0.8);
-	padding: .2em .4em;
-	border-radius: .2rem;
-}
-
 article a {
 	color: lighten($link-color, 20%);
 	border-radius: .2rem;
@@ -45,4 +21,12 @@ h1, h2, h3, h4 {
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
+}
+
+.navbar-dark .navbar-nav {
+
+	.nav-item {
+		padding: 0 1rem;
+	}
+	.nav-link { color: white; }
 }
