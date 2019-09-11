@@ -1,0 +1,37 @@
+title: Rapella Art
+logo: /resources/img/site/logo.svg
+permalink: /:slug
+
+# Social media links
+social:
+  - name: Facebook
+    icon: fab fa-facebook
+    url: https://www.facebook.com/madi.rapella.3
+  - name: Instagram
+    icon: fab fa-instagram
+    url: https://instagram.com/rapellaart
+  - name: LinkedIn
+    icon: fab fa-linkedin-in
+    url: https://www.linkedin.com/in/mrapella/
+  - name: Email
+    icon: fas fa-envelope
+    url: mailto:mrapella@csumb.edu
+
+# Projects
+collections:
+  projects:
+    permalink: /:slug
+    output: true
+    
+assets:
+  img: /assets/img/
+  css: /assets/css/
+  js: /assets/js/
+  files: assets/files/
+    
+# Project Settings
+    
+sass:
+  style: compressed
+  
+# host: 0.0.0.0
