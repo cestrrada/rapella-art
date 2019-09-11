@@ -1,6 +1,21 @@
 title: Rapella Art
+home_title: Digital & Fine Art by Madi Rapella
 logo: /resources/img/site/logo.svg
 permalink: /:slug
+
+navbar:
+  - name: Home
+    link: /
+  - name: Digital Art
+    link: /digital-art
+  - name: Fine Art
+    link: /fine-art
+  - name: Contact & Pricing
+    link: /contact
+  - name: About the Artist
+    link: /about
+  - name: Store
+    link: https://shop.rapellaart.com/
 
 # Social media links
 social:
