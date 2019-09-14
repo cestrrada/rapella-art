@@ -1,6 +1,6 @@
 title: Rapella Art
 home_title: Digital & Fine Art by Madi Rapella
-logo: /resources/img/site/logo.svg
+logo: /assets/img/site/logo.png
 permalink: /:slug
 
 navbar:
@@ -34,7 +34,7 @@ social:
 
 # Projects
 collections:
-  projects:
+  pages:
     permalink: /:slug
     output: true
     
