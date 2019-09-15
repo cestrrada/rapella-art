@@ -1,0 +1,12 @@
+.rapella-heading.serif, .rapella-subheading.serif {
+	font-family: serif;
+}
+
+.rapella-heading {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.rapella-subheading {
+	@extend .text-rapella-accent;
+}

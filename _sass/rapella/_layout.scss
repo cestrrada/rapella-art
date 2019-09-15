@@ -1,0 +1,13 @@
+.rapella-divider {
+	height: 2px;
+	width: 20%;
+	margin: .75em 0;
+	@extend .bg-rapella-accent;
+}
+
+.rapella-art-card {
+	@extend .card, .shadow-sm, .border-0, .rounded-0;
+	img {
+		@extend .rounded-0;
+	}
+}
