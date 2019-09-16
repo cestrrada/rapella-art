@@ -8,29 +8,23 @@ featured: site/featured.jpg
     <div class="row mx-1">
         <div class="card-columns">
 
-            <div class="rapella-art-card">
-                <img src="assets/img/horse.png" class="card-img-top" alt="">
-            </div>
+            {% assign art = site.art | sort: 'date' | reverse %}
+
+            {% for i in (1..4) %}
+
+            {% for piece in art %}
 
             <div class="rapella-art-card">
-                <img src="assets/img/like-porcelain.jpg" class="card-img-top" alt="">
+                <a href="{{ piece.slug }}">
+                    <img src="{{ site.assets.img | append: piece.image }}" class="card-img-top" alt="{{ piece.title }}">
+                    <div class="rapella-card-overlay">
+                        <h2 class="art-title">{{ piece.title }}</h2>
+                    </div>
+                </a>
             </div>
 
-            <div class="rapella-art-card">
-                <img src="assets/img/mourning-angels.jpg" class="card-img-top" alt="">
-            </div>
-
-            <div class="rapella-art-card">
-                <img src="assets/img/like-porcelain.jpg" class="card-img-top" alt="">
-            </div>
-
-            <div class="rapella-art-card">
-                <img src="assets/img/horse.png" class="card-img-top" alt="">
-            </div>
-
-            <div class="rapella-art-card">
-                <img src="assets/img/mourning-angels.jpg" class="card-img-top" alt="">
-            </div>
+            {% endfor %}
+            {% endfor %}
 
         </div>
     </div>
