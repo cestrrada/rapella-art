@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="bg-rapella-primary">
+    {% include nav.html %}
+    
+    <main class="container">
+        <div class="row mx-1">
+            <div class="card-columns">
+    
+                {% assign art = site.art | sort: 'date' | reverse %}
+    
+                {% for i in (1..4) %}
+    
+                    {% for piece in art %}
+    
+                        {% if piece.medium == page.medium %}
+                        <div class="rapella-art-card">
+                            <a href="{{ piece.slug }}">
+                                <img src="{{ site.assets.img | append: piece.image }}" class="card-img-top" alt="{{ piece.title }}">
+                                <div class="rapella-card-overlay">
+                                    <h2 class="art-title">{{ piece.title }}</h2>
+                                </div>
+                            </a>
+                        </div>
+                        {% endif %}
+    
+                    {% endfor %}
+                {% endfor %}
+    
+            </div>
+        </div>
+    
+    </main>
+    
+	{% include footer.html %}
+</body>
+</html>
