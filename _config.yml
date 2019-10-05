@@ -3,6 +3,8 @@ home_title: Digital & Fine Art by Madi Rapella
 logo: /assets/img/site/logo.png
 permalink: /:slug
 
+store-open: false
+
 navbar:
   - name: Home
     link: /

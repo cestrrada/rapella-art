@@ -29,15 +29,8 @@ featured: site/featured.jpg
         </div>
     </div>
 
-    <div class="row mt-4">
-        <div class="col-12 col-md-8 text-center mx-md-auto">
-            <h2 class="rapella-heading serif">Online Store now open.</h2>
-            <h5 class="rapella-subheading serif">Lorem ipsum dolir sit amet.</h5>
-            <div class="rapella-divider mx-auto"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            
-            <button class="btn btn-lg btn-rapella-accent rounded-0 shadow-sm">Shop Now</button>
-        </div>
-    </div>
+    {% if site.store-open %}
+        {% include store-open.html %}
+    {% endif %}
 
 </main>
