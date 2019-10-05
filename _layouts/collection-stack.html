@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="bg-rapella-primary">
+    {% include nav.html %}
+    
+    <main class="container">
+        <div class="row mx-1">
+
+            <div class="card-columns">
+
+                {% for i in (1..2) %}
+
+                {% for art in site.art %}
+    
+                    <a href="#">
+                        <figure class="figure">
+                            <div class="rapella-img-stack mt-2 mb-2">
+                                <img src={{ site.assets.img | append: art.image }} class="img-fluid" alt="...">
+                            </div>
+                            <h4 class="text-center text-dark">Category {{i}}</h4>
+                        </figure>
+                    </a>
+    
+                {% endfor %}
+                {% endfor %}
+
+            </div>
+
+        </div>
+    
+    </main>
+
+    <div class="rapella-img-stack"></div>
+    
+	{% include footer.html %}
+</body>
+</html>
