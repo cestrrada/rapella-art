@@ -9,6 +9,11 @@ fields:
   label: Layout
   default: default
   hidden: true
+- name: slug
+  type: text
+  config:
+    required: true
+  label: slug
 - name: medium_1
   type: text
   config:
