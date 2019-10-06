@@ -17,4 +17,5 @@ fields:
     required: true
   default: New Page
 pages:
+- new-page.md
 - _pages/collections.html
