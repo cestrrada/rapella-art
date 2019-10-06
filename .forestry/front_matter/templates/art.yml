@@ -43,14 +43,3 @@ fields:
   label: Featured Image
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
-- name: art_description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Art Description
-  description: Give your art piece a good description. (e.g. original source, inspiration,
-    challenges faced, etc.)
