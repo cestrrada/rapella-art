@@ -1,5 +1,5 @@
 ---
-layout: pricing
+layout: default
 title: Pricing
 medium_1: Digital
 medium_1_description: This is a description of digital.

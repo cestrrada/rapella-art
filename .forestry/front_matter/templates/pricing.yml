@@ -63,4 +63,4 @@ fields:
       format: markdown
   label: Medium 3 Description
 pages:
-- new-page.md
+- _pages/pricing.md
