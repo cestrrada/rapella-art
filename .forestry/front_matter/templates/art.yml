@@ -24,6 +24,13 @@ fields:
   config:
     required: true
   label: Title
+- name: slug
+  type: text
+  config:
+    required: true
+  label: slug
+  description: This is usually the same thing as the title but in all lowercase. For
+    example, if the title is My New Painting, the slug would be my-new-painting.
 - name: date
   type: datetime
   label: Date
@@ -70,12 +77,5 @@ fields:
   label: Featured Image
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
-- name: slug
-  type: text
-  config:
-    required: true
-  label: slug
-  description: This is usually the same thing as the title but in all lowercase. For
-    example, if the title is My New Painting, the slug would be my-new-painting.
 pages:
 - _posts/2019-10-01-test-post.md
