@@ -62,3 +62,5 @@ fields:
     schema:
       format: markdown
   label: Medium 3 Description
+pages:
+- new-page.md
