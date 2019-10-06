@@ -2,6 +2,22 @@
 label: Art
 hide_body: false
 fields:
+- name: layout
+  type: select
+  default: single
+  config:
+    required: true
+    options:
+    - single
+    - page
+    - collection
+    - default
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
 - name: title
   type: text
   config:
