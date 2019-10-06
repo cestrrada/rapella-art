@@ -12,15 +12,16 @@
                 {% for i in (1..2) %}
 
                 {% for art in site.art %}
-    
-                    <a href="#">
-                        <figure class="figure">
-                            <div class="rapella-img-stack mt-2 mb-2">
-                                <img src={{ site.assets.img | append: art.image }} class="img-fluid" alt="...">
+
+                <div class="rapella-art-card my-3">
+                        <a href="#" class="rapella-img-stack">
+                            <img src="{{ site.assets.img | append: art.image }}" class="card-img-top" alt={{ art.title }}>
+                            <div class="rapella-card-overlay">
+                                <h2 class="art-title">{{ art.title }}</h2>
                             </div>
-                            <h4 class="text-center text-dark">Category {{i}}</h4>
-                        </figure>
-                    </a>
+                        </a>
+                    
+                </div>
     
                 {% endfor %}
                 {% endfor %}
@@ -30,8 +31,6 @@
         </div>
     
     </main>
-
-    <div class="rapella-img-stack"></div>
     
 	{% include footer.html %}
 </body>
