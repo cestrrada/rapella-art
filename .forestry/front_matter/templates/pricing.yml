@@ -25,6 +25,11 @@ fields:
   config:
     required: false
   label: Medium 1
+- name: medium_1_start_price
+  type: text
+  config:
+    required: true
+  label: Medium 1 Starting Price
 - name: medium_1_description
   type: textarea
   default: ''
@@ -39,6 +44,11 @@ fields:
   config:
     required: false
   label: Medium 2
+- name: medium_2_start_price
+  type: text
+  config:
+    required: true
+  label: Medium 2 Starting Price
 - name: medium_2_description
   type: textarea
   default: ''
@@ -53,6 +63,11 @@ fields:
   config:
     required: false
   label: Medium 3
+- name: medium_3_start_price
+  type: text
+  config:
+    required: true
+  label: Medium 3 Starting Price
 - name: medium_3_description
   type: textarea
   default: ''
