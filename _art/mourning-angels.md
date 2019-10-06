@@ -1,11 +1,16 @@
 ---
 layout: single
 title: Mourning Angels
-date: December 2018
+date: 2009-12-01 08:00:00 +0000
 medium: Digital
 categories: []
 image: ''
 description: ''
-keywords: ''
+keywords:
+- horse
+- guardian
+- angel
+featured_image: "/uploads/mourning-angels.jpg"
 
 ---
+This is another painting.
