@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Horse
-date: 2019-01-01 08:00:00 +0000
+title: Horse Painting
+date: 2017-02-01 08:00:00 +0000
 medium: Digital
 categories: Animals
 image: horse.png
@@ -10,7 +10,7 @@ keywords:
 - test
 - keyword
 - blah
-featured_image: ''
+featured_image: "/uploads/horse.png"
 
 ---
 This is a picture of a horse.
