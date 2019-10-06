@@ -9,6 +9,12 @@ fields:
   label: Layout
   default: default
   hidden: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  default: New Page
 - name: slug
   type: text
   config:
