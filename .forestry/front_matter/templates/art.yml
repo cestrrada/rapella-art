@@ -46,6 +46,16 @@ fields:
       file: 
       path: 
   label: Medium
+- name: categories
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: documents
+  label: categories
+  description: Add and reorder your piece's categories.
 - name: keywords
   type: tag_list
   default: []
@@ -59,16 +69,6 @@ fields:
   label: Featured Image
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
-- name: categories
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-    source:
-      type: documents
-  label: categories
-  description: Add and reorder your piece's categories.
 pages:
 - _art/mourning-angels.md
 - _art/like-porcelain.md
