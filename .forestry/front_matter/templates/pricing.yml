@@ -30,6 +30,7 @@ fields:
   config:
     required: true
   label: Medium 1 Starting Price
+  description: Starting price estimate for this medium. Don't include the dollar sign.
 - name: medium_1_description
   type: textarea
   default: ''
@@ -49,6 +50,7 @@ fields:
   config:
     required: true
   label: Medium 2 Starting Price
+  description: Starting price estimate for this medium. Don't include the dollar sign.
 - name: medium_2_description
   type: textarea
   default: ''
@@ -68,6 +70,7 @@ fields:
   config:
     required: true
   label: Medium 3 Starting Price
+  description: Starting price estimate for this medium. Don't include the dollar sign.
 - name: medium_3_description
   type: textarea
   default: ''
