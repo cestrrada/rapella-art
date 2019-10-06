@@ -1,4 +1,56 @@
 ---
 label: Art
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: MM/YYYY
+    time_format: h:mm A
+    display_utc: false
+- name: medium
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Digital
+    - Fine
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Medium
+- name: keywords
+  type: tag_list
+  default: []
+  label: Keywords
+  description: A list of specific keywords for Google search to use (e.g. art, horse,
+    people, etc.)
+- name: featured_image
+  type: file
+  config:
+    maxSize: '5'
+  label: Featured Image
+  description: Upload a single image. If this is part of a collection, specify the
+    collection and upload the other images separately.
+- name: art_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Art Description
+  description: Give your art piece a good description. (e.g. original source, inspiration,
+    challenges faced, etc.)
