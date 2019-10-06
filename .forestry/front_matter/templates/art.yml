@@ -70,7 +70,7 @@ fields:
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
 pages:
-- _posts/test-post.md
+- _posts/2019-10-01-test-post.md
 - _art/horse.md
 - _art/mourning-angels.md
 - _art/like-porcelain.md
