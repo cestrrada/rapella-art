@@ -13,3 +13,4 @@ keywords:
 featured_image: ''
 
 ---
+This is a picture of a horse.
