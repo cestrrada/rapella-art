@@ -14,6 +14,6 @@ medium_3_start_price: '120.00'
 menu:
   header:
     identifier: pricing
-    weight: 3
+    weight: 4
 
 ---
