@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="bg-rapella-primary">
+    {% include nav.html %}
+    
+    <main class="container">
+        <div class="row mx-1">
+
+            <div class="card-columns">
+
+                {% for category in site.categories %}
+
+                    {% capture category_name %}{{ category | first }}{% endcapture %}
+                    {% assign first_post = site.categories[category_name] | first %}
+
+                <div class="rapella-art-card my-3">
+                    <a href="#" class="rapella-img-stack">
+                        <img src="{{ first_post.featured_image }}" class="card-img-top" 
+                            alt={{ category_name }}>
+                        <div class="rapella-card-overlay">
+                            <h2 class="art-title">{{ category_name }}</h2>
+                        </div>
+                    </a>
+                </div>
+    
+                {% endfor %}
+
+            </div>
+
+        </div>
+    
+    </main>
+    
+	{% include footer.html %}
+</body>
+</html>

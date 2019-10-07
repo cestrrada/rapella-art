@@ -5,24 +5,45 @@
     {% include nav.html %}
     
     <main class="container">
+        <div class="row">
+            <div class="col-12 text-center my-3">
+
+                <ul class="rapella-category-filter">
+                    <li>All</li>
+
+                    {% for category in site.categories %}
+                    {% capture category_name %}{{ category | first }}{% endcapture %}
+    
+                    <li>{{ category_name }}</li>
+    
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
         <div class="row mx-1">
 
             <div class="card-columns">
 
-                {% for category in site.categories %}
+                {% for post in site.posts %}
 
-                    {% capture category_name %}{{ category | first }}{% endcapture %}
-                    {% assign first_post = site.categories[category_name] | first %}
+                    {% assign class_list = "" %}
 
-                <div class="rapella-art-card my-3">
-                    <a href="#" class="rapella-img-stack">
-                        <img src="{{ first_post.featured_image }}" class="card-img-top" 
-                            alt={{ category_name }}>
-                        <div class="rapella-card-overlay">
-                            <h2 class="art-title">{{ category_name }}</h2>
-                        </div>
-                    </a>
-                </div>
+                    {% for category in post.categories %}
+
+                        {% capture class_list %}{{ class_list }} {{ category | prepend: "category-" | replace: " ", "-" | downcase }}{% endcapture %}
+
+                    {% endfor %}
+
+                    <div class="rapella-art-card{{ class_list }}">
+                        <a href="{{ post.slug }}">
+                            <img src="{{ post.featured_image }}" class="card-img-top" 
+                                alt="{{ post.title }}">
+                            <div class="rapella-card-overlay">
+                                <h2 class="art-title">{{ post.title }}</h2>
+                            </div>
+                        </a>
+                    </div>
     
                 {% endfor %}
 
