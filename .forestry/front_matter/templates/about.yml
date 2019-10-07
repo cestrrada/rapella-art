@@ -19,3 +19,5 @@ fields:
   name: artist-image
   label: Artist Image
   description: Upload a picture of yourself for your about page.
+pages:
+- _pages/about.md
