@@ -11,5 +11,9 @@ slug: pricing
 medium_1_start_price: '50.00'
 medium_2_start_price: '80.00'
 medium_3_start_price: '120.00'
+menu:
+  header:
+    identifier: pricing
+    weight: 3
 
 ---

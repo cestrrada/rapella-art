@@ -3,6 +3,11 @@ layout: about
 title: About the Artist
 slug: about
 artist-image: "/uploads/like-porcelain.jpg"
+menu:
+  header:
+    title: About
+    identifier: about
+    weight: 4
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
