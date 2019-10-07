@@ -5,18 +5,6 @@ permalink: /:slug
 
 store-open: false
 
-navbar:
-  - name: Home
-    link: /
-  - name: Collections
-    link: /collections
-  - name: Contact & Pricing
-    link: /contact
-  - name: About the Artist
-    link: /about
-  - name: Store
-    link: https://shop.rapellaart.com/
-
 # Social media links
 social:
   - name: Facebook

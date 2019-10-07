@@ -1,0 +1,15 @@
+---
+header:
+  - url: /
+    title: Home
+    identifier: home
+  - url: /collections
+    title: Collections
+    identifier: collections
+  - url: /pricing
+    title: Pricing
+    identifier: pricing
+  - url: /about
+    title: About
+    identifier: about
+---

@@ -12,9 +12,9 @@
 
           <div class="collapse navbar-collapse">
               <ul class="navbar-nav mx-auto">
-                    {% for item in site.navbar %}
+                    {% for item in site.menus.header %}
                     <li class="nav-item">
-                        <a href={{item.link}} class="nav-link">{{item.name}}</a>
+                        <a href={{item.url}} class="nav-link">{{item.title}}</a>
                     </li>
                     {% endfor %}
               </ul>
