@@ -1,17 +1,30 @@
-.rapella-heading.serif, .rapella-subheading.serif {
-	font-family: serif;
+body {
+	font-family: "Raleway", var(--font-family-sans-serif);
 }
 
-.rapella-heading {
-	font-weight: bold;
-	margin-bottom: 0;
+.mr-heading, .mr-card-overlay .art-title {
+	font-family: "Laila";
+	margin-bottom: 0.5em;
 }
 
-.rapella-subheading {
-	@extend .text-rapella-accent;
+.mr-heading:after {
+	display: block;
+	content:"";
+	width: 80px;
+	height: 3px;
+	margin: 0.3em 0;
+	@extend .bg-mr-accent;
 }
 
-.rapella-text-detail {
+.mr-subheading {
+	@extend .text-mr-accent;
+}
+
+.mr-text-detail {
 	font-size: 1.1em;
 	color: rgba(0, 0, 0, 0.4);
+}
+
+.mr-filter {
+	font-size: 1.1em;
 }

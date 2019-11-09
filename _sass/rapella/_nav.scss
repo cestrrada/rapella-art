@@ -6,24 +6,25 @@
 	.nav-link { color: white; }
 }
 
-.rapella-site-logo {
+.mr-site-logo {
 	width: 350px;
 	max-width: 100%;
 }
 
-.rapella-category-filter {
-	li {
+.mr-filter {
+	a {
 		display: inline;
-		font-size: 1.1em;
 		margin: 0 .75em;
-		padding: .3em .25em;
+		padding: .4em .2em;
 		cursor: pointer;
-		border-bottom: 0px solid transparent;
-		transition: .25s ease-in-out;
+		border-bottom: 4px solid;
+		border-width: 0px;
+		transition: all .25s ease-in-out;
 		
-		&:hover {
-			border-bottom: 4px solid;
-			@extend .border-rapella-accent-opaque;
+		&.mr-filter-active, &:hover {
+			border-width: 100%;
+			@extend .border-mr-accent-opaque;
+			transition: all .25s ease-in-out;
 		}
 	}
 }
