@@ -40,7 +40,7 @@ a.card-link {
 }
 
 .mr-art-card {
-	@extend .card, .border-0, .rounded-0;
+	@extend .card, .border-0, .rounded-0, .animate-reveal;
 	
 	background-color: transparent;
 	img {
@@ -135,4 +135,34 @@ a.card-link {
 
 .mr-filter a:hover:not(.mr-filter-active) {
 	@extend .text-mr-accent;
+}
+
+.animate-reveal {
+	animation: reveal 1s;
+}
+
+.animate-hide {
+	animation: hide 1s;
+}
+
+@keyframes reveal {
+	from {
+		opacity: 0;
+		transform: scale(0.75);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes hide {
+	from {
+		opacity: 1;
+		transform: scale(1);
+	}
+	to {
+		opacity: 0;
+		transform: scale(0.75);
+	}
 }

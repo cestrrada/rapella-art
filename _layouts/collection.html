@@ -39,7 +39,7 @@
                         {% capture class_list %}{{ class_list }} {{ category | replace: " ", "-" | downcase }}{% endcapture %}
 
                     {% endfor %}
-                    <!-- <div class="col-12 col-md-4" data-category="{{ class_list }}"> -->
+
                     <div class="mr-art-card" data-category="{{ class_list }}">
                         <a href="{{ post.slug }}">
                             <img src="{{ post.featured_image }}" class="card-img-top" 
@@ -49,7 +49,6 @@
                             </div>
                         </a>
                     </div>
-                    <!-- </div> -->
     
                 {% endfor %}
 
@@ -68,12 +67,10 @@
             let className = this.id.replace("toggle-", "");
 
             if (className === "all") {
-                console.log("all");
-                $("[data-category]").removeClass("d-none").fadeIn();
+                $("[data-category]").show().finish().addClass("animate-reveal").finish().removeClass("animate-reveal");
             } else {
-                console.log(className);
-                $("[data-category]").addClass("d-none").fadeOut();
-                $(`[data-category*="${className}"]`).removeClass("d-none").fadeIn();
+                $("[data-category]").hide();
+                $(`[data-category*="${className}"]`).show().finish().addClass("animate-reveal").finish().removeClass("animate-reveal");
             }
 
             $("[id^='toggle-']").removeClass("mr-filter-active");
