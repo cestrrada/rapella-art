@@ -3,6 +3,7 @@ layout: about
 title: About the Artist
 slug: about
 artist-image: "/uploads/like-porcelain.jpg"
+resume: "/uploads/mourning-angels.jpg"
 menu:
   header:
     title: About
