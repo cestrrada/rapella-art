@@ -2,11 +2,11 @@
 layout: pricing
 title: Pricing
 medium_1: Digital
-medium_1_description: This is a description of digital.
+medium_1_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor magna sit amet lobortis aliquet. Nam eget tempus enim, vitae vehicula nibh. Curabitur ac libero diam. Curabitur a ante pretium, iaculis arcu eget, condimentum purus. Maecenas ac magna in ante tempus placerat vel et purus.
 medium_2: Graphite
-medium_2_description: This is graphite's description.
+medium_2_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor magna sit amet lobortis aliquet. Nam eget tempus enim, vitae vehicula nibh. Curabitur ac libero diam. Curabitur a ante pretium, iaculis arcu eget, condimentum purus.
 medium_3: Acrylic
-medium_3_description: This is a third medium, acrylic.
+medium_3_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor magna sit amet lobortis aliquet. Nam eget tempus enim, vitae vehicula nibh. Curabitur ac libero diam. Curabitur a ante pretium, iaculis arcu eget, condimentum purus. Maecenas ac magna in ante tempus placerat vel et purus. Fusce ut nunc mattis, tincidunt ex eget, fringilla orci. Praesent rutrum ultrices nisl, bibendum suscipit leo auctor vitae. Duis laoreet ultricies metus sit amet consequat.
 slug: pricing
 medium_1_start_price: '50.00'
 medium_2_start_price: '80.00'

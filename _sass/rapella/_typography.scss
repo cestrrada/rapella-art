@@ -16,6 +16,16 @@ body {
 	@extend .bg-mr-accent;
 }
 
+.text-center .mr-heading:after {
+	margin: 0.3em auto;
+}
+
+@include media-breakpoint-up(md) {
+	.text-md-left .mr-heading:after {
+		margin: 0.3em 0;
+	}
+}
+
 .mr-subheading {
 	@extend .text-mr-accent;
 }
