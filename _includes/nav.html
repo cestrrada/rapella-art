@@ -5,7 +5,7 @@
         </a>        
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-mr-accent-opaque shadow-sm rounded">
+    <nav class="navbar navbar-expand navbar-dark bg-mr-accent-opaque shadow-sm rounded p-0">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -14,7 +14,10 @@
               <ul class="navbar-nav mx-auto">
                     {% for item in site.menus.header %}
                     <li class="nav-item">
-                        <a href={{item.url}} class="nav-link">{{item.title}}</a>
+                        <a href={{item.url}} 
+                            class="nav-link {% if item.url == page.url %}active{% endif %}">
+                            {{item.title}}
+                        </a>
                     </li>
                     {% endfor %}
               </ul>

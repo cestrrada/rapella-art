@@ -1,9 +1,14 @@
 .navbar-dark .navbar-nav {
+	.nav-link { 
+		color: white;
+		padding: 1em 1.5em !important;
+		transition: all .5s ease-in-out;
 
-	.nav-item {
-		padding: 0 1rem;
+		&.active, &:hover {
+			@extend .bg-mr-accent;
+			transition: .5s;
+		}
 	}
-	.nav-link { color: white; }
 }
 
 .mr-site-logo {
