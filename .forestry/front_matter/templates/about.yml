@@ -19,5 +19,11 @@ fields:
   name: artist-image
   label: Artist Image
   description: Upload a picture of yourself for your about page.
+- name: resume
+  type: file
+  config:
+    maxSize: 250
+  label: Resume
+  description: Upload a copy of your resume.
 pages:
 - _pages/about.md
