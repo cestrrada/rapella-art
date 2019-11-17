@@ -3,6 +3,9 @@ layout: about
 title: Artist Statement
 slug: statement
 artist-image: "/uploads/like-porcelain.jpg"
+menu:
+  header:
+    weight: 3
 
 ---
 My digital paintings are a representation of the otherworldly bond between humans and animals. Each piece is driven by my strong belief that “​until one has loved an ​animal​, a part of one’s soul remains unawakened”- Anatole France. The paintings depict ​one of the most purest forms of friendship–the bond between a child and an animal. 
