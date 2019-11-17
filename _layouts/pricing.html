@@ -21,17 +21,17 @@
     
             <div class="col-12 col-md-6 my-auto">
                 <div class="row">
+
+                    {% for sample in page.medium_1_samples %}
+
                     <div class="col-6 col-md-6">
                         <div class="card rounded-0 border-0 shadow-sm">
-                            <img src="{{ page.medium_1_sample_1 }}" class="card-img-top rounded-0" alt="">
+                            <img src="{{ sample }}" class="card-img-top rounded-0" alt="">
                         </div>
                     </div>
-    
-                    <div class="col-6 col-md-6 my-auto">
-                        <div class="card rounded-0 border-0 shadow-sm">
-                            <img src="{{ page.medium_1_sample_2 }}" class="card-img-top rounded-0" alt="">
-                        </div>
-                    </div>
+
+                    {% endfor %}
+
                 </div>
             </div>
     
@@ -41,17 +41,17 @@
     
             <div class="col-12 col-md-6 my-auto">
                 <div class="row">
-                    <div class="col-6 col-md-6 mt-4">
-                        <div class="card rounded-0 border-0 shadow-sm">
-                            <img src="{{ page.medium_2_sample_1 }}" class="card-img-top rounded-0" alt="">
-                        </div>
-                    </div>
-    
+                    
+                    {% for sample in page.medium_2_samples %}
+
                     <div class="col-6 col-md-6">
                         <div class="card rounded-0 border-0 shadow-sm">
-                            <img src="{{ page.medium_2_sample_2 }}" class="card-img-top rounded-0" alt="">
+                            <img src="{{ sample }}" class="card-img-top rounded-0" alt="">
                         </div>
                     </div>
+
+                    {% endfor %}
+
                 </div>
             </div>
     
@@ -86,17 +86,17 @@
     
             <div class="col-12 col-md-6 my-auto">
                 <div class="row">
+                    
+                    {% for sample in page.medium_3_samples %}
+
                     <div class="col-6 col-md-6">
                         <div class="card rounded-0 border-0 shadow-sm">
-                            <img src="{{ page.medium_3_sample_1 }}" class="card-img-top rounded-0" alt="">
+                            <img src="{{ sample }}" class="card-img-top rounded-0" alt="">
                         </div>
                     </div>
-    
-                    <div class="col-6 col-md-6 mt-4">
-                        <div class="card rounded-0 border-0 shadow-sm">
-                            <img src="{{ page.medium_3_sample_2 }}" class="card-img-top rounded-0" alt="">
-                        </div>
-                    </div>
+
+                    {% endfor %}
+
                 </div>
             </div>
     
