@@ -40,6 +40,12 @@ fields:
     schema:
       format: markdown
   label: Medium 1 Description
+- name: medium_1_sample_1
+  type: file
+  config:
+    maxSize: 250
+  label: Medium 1 Sample 1
+  description: Choose a sample of this medium to display.
 - name: medium_2
   type: text
   config:
