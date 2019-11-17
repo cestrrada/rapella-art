@@ -2,4 +2,5 @@
 header:
 - identifier: home
   weight: 1
+  url: "/"
   title: Home
