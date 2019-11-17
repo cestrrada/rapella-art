@@ -33,6 +33,5 @@ menu:
   header:
     identifier: pricing
     weight: 4
-    title: Pricing & Commissions
 
 ---
