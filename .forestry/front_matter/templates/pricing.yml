@@ -40,12 +40,11 @@ fields:
     schema:
       format: markdown
   label: Medium 1 Description
-- name: medium_1_sample_1
-  type: file
-  config:
-    maxSize: 250
-  label: Medium 1 Sample 1
-  description: Choose a sample of this medium to display.
+- name: medium_1_samples
+  type: image_gallery
+  config: {}
+  label: Medium 1 Samples
+  description: Choose up to 2 samples of this medium to display.
 - name: medium_2
   type: text
   config:
@@ -66,6 +65,11 @@ fields:
     schema:
       format: markdown
   label: Medium 2 Description
+- name: medium_2_samples
+  type: image_gallery
+  config: {}
+  description: Choose up to 2 samples of this medium to display.
+  label: Medium 2 Samples
 - name: medium_3
   type: text
   config:
@@ -86,5 +90,10 @@ fields:
     schema:
       format: markdown
   label: Medium 3 Description
+- name: medium_3_samples
+  type: image_gallery
+  config: {}
+  label: Medium 3 Samples
+  description: Choose up to 2 samples of this medium to display.
 pages:
 - _pages/pricing.md
