@@ -32,6 +32,6 @@ medium_3_samples:
 menu:
   header:
     identifier: pricing
-    weight: 4
+    weight: 3
 
 ---
