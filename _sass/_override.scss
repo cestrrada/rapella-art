@@ -1,14 +1,7 @@
 $minus-opacity: .85;
 
-article a {
-	color: lighten($link-color, 20%);
-	border-radius: .2rem;
-	font-weight: 500;
-	
-	&:hover {
-		transition: .25s;
-		color: lighten($link-color, 10%);;
-	}
+article a, p a {
+	@extend .text-mr-accent;
 }
 
 .display-5 {
