@@ -25,5 +25,3 @@ fields:
     maxSize: 250
   label: Resume
   description: Upload a copy of your resume.
-pages:
-- _pages/about.md

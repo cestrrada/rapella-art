@@ -16,5 +16,3 @@ fields:
   config:
     required: true
   default: New Page
-pages:
-- _pages/collections.html

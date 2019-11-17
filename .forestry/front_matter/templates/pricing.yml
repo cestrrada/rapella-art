@@ -95,5 +95,3 @@ fields:
   config: {}
   label: Medium 3 Samples
   description: Choose up to 2 samples of this medium to display.
-pages:
-- _pages/pricing.md
