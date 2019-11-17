@@ -5,12 +5,15 @@
         </a>        
     </div>
 
-    <nav class="navbar navbar-expand navbar-dark bg-mr-accent-opaque shadow-sm rounded p-0">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <nav class="navbar navbar-expand-md navbar-dark bg-mr-accent-opaque shadow-sm rounded p-0">
+        <div class="mx-auto">
+            <button class="d-flex justify-content-center d-md-none mr-navbar-toggle px-4" type="button" data-toggle="collapse" data-target="#navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mr-menu-icon mr-2"></span>
+                <span class="">Menu</span>
+            </button>
+        </div>
 
-          <div class="collapse navbar-collapse">
+          <div id="navbar-content" class="collapse navbar-collapse">
               <ul class="navbar-nav mx-auto">
                     {% for item in site.menus.header %}
                     <li class="nav-item">

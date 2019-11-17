@@ -11,6 +11,30 @@
 	}
 }
 
+.mr-navbar-toggle {
+	color: white;
+	background-color: transparent;
+	border: none;
+	padding: 1em 0;
+	text-transform: uppercase;
+
+	.mr-menu-icon, .mr-menu-icon:after {
+		width: 20px;
+		height: 2px;
+		background: white;
+	}
+
+	.mr-menu-icon {
+		transform: translateY(6px);
+	}
+
+	.mr-menu-icon:after {
+		content: "";
+		display: block;
+		transform: translateY(9px);
+	}
+}
+
 .mr-site-logo {
 	width: 350px;
 	max-width: 100%;
