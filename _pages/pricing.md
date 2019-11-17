@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pricing
 title: Pricing
 medium_1: Digital
 medium_1_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
