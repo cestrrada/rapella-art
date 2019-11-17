@@ -33,3 +33,17 @@
 		}
 	}
 }
+
+.mr-social-footer {
+	a {
+		font-size: 1.6em;
+		transition: .5s;
+
+		&:hover {
+			text-decoration: none;
+			color: white;
+			opacity: 0.6;
+			transition: .5s;
+		}
+	}
+}
