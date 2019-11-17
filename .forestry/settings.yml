@@ -6,12 +6,9 @@ webhook_url:
 sections:
 - type: directory
   path: ''
-  label: Pages2
-  create: all
-  match: "**/_pages/*"
-- type: jekyll-pages
   label: Pages
   create: all
+  match: _pages/*
 - type: jekyll-posts
   label: Posts
   create: all
