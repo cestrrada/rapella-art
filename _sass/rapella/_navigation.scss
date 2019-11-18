@@ -22,6 +22,7 @@
 		width: 20px;
 		height: 2px;
 		background: white;
+		transition: .5s;
 	}
 
 	.mr-menu-icon {
@@ -32,6 +33,21 @@
 		content: "";
 		display: block;
 		transform: translateY(9px);
+	}
+
+	// display an X button when menu is expanded
+	&[aria-expanded=true] {
+		.mr-menu-icon, .mr-menu-icon:after {
+			transition: .5s;
+		}
+
+		.mr-menu-icon {
+			transform: rotate(45deg) translateX(.5em) translateY(6px);
+
+			&:after {
+				transform: rotate(-90deg);
+			}
+		}
 	}
 }
 
