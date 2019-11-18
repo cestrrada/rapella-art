@@ -7,7 +7,7 @@ keywords:
 - horse
 - guardian
 - angel
-featured_image: "/uploads/mourning-angels.jpg"
+featured_image: "/v1574055761/mourning-angels_blpfbg.jpg"
 slug: mourning-angels
 categories: []
 
