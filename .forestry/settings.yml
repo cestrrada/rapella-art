@@ -15,7 +15,6 @@ sections:
 - type: jekyll-pages
   label: Site Pages
   create: all
-  match: "**/*"
 upload_dir: ''
 public_path: https://res.cloudinary.com/rapella/image
 front_matter_path: ''
