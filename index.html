@@ -17,7 +17,7 @@ menu:
 
             <div class="mr-art-card">
                 <a href="{{ post.slug }}">
-                    <img src="{{ post.featured_image }}" class="card-img-top" 
+                    <img src="{{ site.cloudinary_url }}/{{ post.featured_image }}" class="card-img-top" 
                         alt="{{ post.title }}">
                     <div class="mr-card-overlay">
                         <h2 class="art-title">{{ post.title }}</h2>
