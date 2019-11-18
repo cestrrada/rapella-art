@@ -3,7 +3,7 @@ home_title: Digital & Fine Art by Madi Rapella
 logo: /assets/img/site/logo.png
 permalink: /:slug
 
-cloudinary_url: "https://res.cloudinary.com/rapella/image"
+cloudinary_url: "https://res.cloudinary.com/rapella"
 store-open: false
 
 # Social media links
