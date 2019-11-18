@@ -13,7 +13,7 @@ sections:
   create: documents
   match: "**/*"
 upload_dir: ''
-public_path: https://res.cloudinary.com/rapella/image/upload
+public_path: https://res.cloudinary.com/rapella/image
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
