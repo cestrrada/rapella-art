@@ -7,7 +7,7 @@ medium: Fine
 categories:
 - People
 - Category 2
-featured_image: "/uploads/like-porcelain.jpg"
+featured_image: "/v1574055761/like-porcelain_hfuymo.jpg"
 slug: like-porcelain
 
 ---
