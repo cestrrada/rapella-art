@@ -78,6 +78,7 @@ fields:
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
 pages:
+- _posts/serenity.md
 - _posts/2019-11-01-sandira-and-damir.md
 - _posts/girl.md
 - _posts/lionhearted.md
