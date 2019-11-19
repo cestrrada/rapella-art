@@ -8,6 +8,7 @@ menu:
   header:
     identifier: about
     weight: 1
+published: false
 
 ---
 Madi Rapella focuses on conveying the stories of people and animals through a realistic portraiture style. She mainly works in digital and acrylic mediums. Madi is currently pursuing a bachelor’s degree in visual and public art at California State University, Monterey Bay.
