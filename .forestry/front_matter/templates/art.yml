@@ -37,7 +37,7 @@ fields:
   description: ''
   config:
     required: false
-    date_format: MM/YYYY
+    date_format: YYYY
     time_format: h:mm A
     display_utc: false
 - name: medium
