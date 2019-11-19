@@ -2,7 +2,7 @@
 layout: single
 keywords: []
 title: Sandira and Damir
-slug: Sandira-and-damir
+slug: sandira-and-damir
 date: 2019-11-01 07:00:00 +0000
 medium: Digital
 categories:
