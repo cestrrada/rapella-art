@@ -14,16 +14,12 @@ medium_3_start_price: '70.00'
 medium_1_samples:
 - "/v1574061465/Sweet_Dreams.jpg"
 - "/v1574141901/Raudha_hwwroj.png"
-- "/uploads/like-porcelain.jpg"
-- "/uploads/mourning-angels.jpg"
 medium_2_samples:
-- "/uploads/horse.png"
-- "/uploads/like-porcelain.jpg"
+- "/v1574061465/The-Khaleesi.jpg"
+- "/v1574061467/Lucky-Blue.jpg"
 medium_3_samples:
 - "/v1574142448/Screen_Shot_2019-09-15_at_6.00.53_PM_ddejgk.png"
 - "/v1574061465/The-Understanding.jpg"
-- "/uploads/horse.png"
-- "/uploads/mourning-angels.jpg"
 menu:
   header:
     identifier: pricing
