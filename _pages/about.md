@@ -2,8 +2,8 @@
 layout: about
 title: About the Artist
 slug: about
-artist-image: "/uploads/like-porcelain.jpg"
-resume: "/uploads/mourning-angels.jpg"
+artist-image: "/v1574142939/C5F57477-4BCF-42DF-8A5E-3152358EC6C0_r6jwfi.jpg"
+resume: "/v1574142877/Madi_s_Resume_2019_bqs60i.pdf"
 menu:
   header:
     identifier: about
