@@ -78,6 +78,7 @@ fields:
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
 pages:
+- _posts/the-last-of-them.md
 - _posts/one-and-the-same.md
 - _posts/zayn.md
 - _posts/purple-hair.md
