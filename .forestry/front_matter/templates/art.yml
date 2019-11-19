@@ -36,7 +36,7 @@ fields:
   label: Date
   description: ''
   config:
-    required: false
+    required: true
     date_format: YYYY
     time_format: h:mm A
     display_utc: false
