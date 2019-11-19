@@ -78,6 +78,7 @@ fields:
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
 pages:
+- _posts/zayn.md
 - _posts/purple-hair.md
 - _posts/the-understanding.md
 - _posts/arabian-horse.md
