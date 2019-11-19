@@ -23,6 +23,7 @@ medium_3_samples:
 menu:
   header:
     identifier: pricing
-    weight: 3
+    weight: 4
+    title: Commissions
 
 ---
