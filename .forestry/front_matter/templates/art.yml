@@ -78,6 +78,7 @@ fields:
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
 pages:
+- _posts/2017-11-01-the-understanding.md
 - _posts/2019-11-01-raudha.md
 - _posts/2019-11-01-the-dragon-and-the-wolf.md
 - _posts/2018-11-01-one-and-the-same.md
@@ -86,7 +87,6 @@ pages:
 - _posts/2019-11-01-the-last-of-them.md
 - _posts/zayn.md
 - _posts/purple-hair.md
-- _posts/the-understanding.md
 - _posts/2019-11-19-pupper.md
 - _posts/2019-10-01-test-post.md
 - _posts/2019-10-01-mourning-angels.md
