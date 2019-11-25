@@ -15,8 +15,8 @@ medium_1_samples:
 - "/v1574061465/Sweet_Dreams.jpg"
 - "/v1574141901/Raudha_hwwroj.png"
 medium_2_samples:
-- "/v1574061465/The-Khaleesi.jpg"
-- "/v1574061467/Lucky-Blue.jpg"
+- "/v1574649828/81F9279A-2575-44B5-936F-F3A24B89FC33_1_201_a_tnearv.jpg"
+- "/v1574649750/449321B0-0B8D-4A46-A7B6-643476D97B5A_1_201_a_ovf3ym.jpg"
 medium_3_samples:
 - "/v1574142448/Screen_Shot_2019-09-15_at_6.00.53_PM_ddejgk.png"
 - "/v1574061465/The-Understanding.jpg"
