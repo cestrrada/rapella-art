@@ -2,7 +2,7 @@ body {
 	font-family: "Raleway", var(--font-family-sans-serif);
 }
 
-.mr-heading, .mr-card-overlay .art-title {
+.mr-heading, .art-title, .art-count {
 	font-family: "Laila";
 	margin-bottom: 0.5em;
 }
@@ -36,4 +36,22 @@ body {
 
 .mr-filter {
 	font-size: 1.1em;
+}
+
+.mr-card-overlay {
+	.art-title {
+		font-weight: normal;
+		font-size: 1.25em;
+	}
+}
+
+.mr-category-overlay {
+	.art-title {
+		font-weight: normal;
+		font-size: 1.25em;
+	}
+
+	.art-count {
+		font-size: 1em;
+	}
 }

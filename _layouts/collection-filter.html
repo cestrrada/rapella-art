@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="bg-mr-primary">
+    {% include nav.html %}
+    
+    <main class="container">
+        <div class="row">
+            <div class="col-12 text-center mt-2 mb-4">
+
+                <div class="mr-filter">
+                    <a id="toggle-all" class="mr-filter-active">All</a>
+
+                    {% for category in site.categories %}
+                        {% capture category_name %}{{ category | first }}{% endcapture %}
+                        
+                        {% capture category_id %}{{ category_name | replace: " ", "-" | downcase }}{% endcapture %}
+        
+                        <a id="toggle-{{category_id}}">
+                            {{ category_name }}
+                        </a>
+    
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row mx-1">
+
+            <div class="card-columns">
+
+                {% for post in site.posts %}
+
+                    {% assign class_list = "" %}
+
+                    {% for category in post.categories %}
+
+                        {% capture class_list %}{{ class_list }} {{ category | replace: " ", "-" | downcase }}{% endcapture %}
+
+                    {% endfor %}
+
+                    <div class="mr-art-card" data-category="{{ class_list }}">
+                        <a href="{{ post.slug }}">
+                            <img src="{{ site.cloudinary_url }}{{ post.featured_image }}" class="card-img-top" 
+                                alt="{{ post.title }}">
+                            <div class="mr-card-overlay">
+                                <h2 class="art-title">{{ post.title }}</h2>
+                            </div>
+                        </a>
+                    </div>
+    
+                {% endfor %}
+
+            </div>
+
+        </div>
+    
+    </main>
+    
+	{% include footer.html %}
+</body>
+<script>
+    $(function() {
+
+        $("[id^='toggle-']").on("click", function() {
+            let className = this.id.replace("toggle-", "");
+
+            if (className === "all") {
+                $("[data-category]").show().finish().addClass("animate-reveal").finish().removeClass("animate-reveal");
+            } else {
+                $("[data-category]").hide();
+                $(`[data-category*="${className}"]`).show().finish().addClass("animate-reveal").finish().removeClass("animate-reveal");
+            }
+
+            $("[id^='toggle-']").removeClass("mr-filter-active");
+            $(this).addClass("mr-filter-active");
+        });
+
+    });
+</script>
+</html>

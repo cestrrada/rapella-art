@@ -5,50 +5,37 @@
     {% include nav.html %}
     
     <main class="container">
-        <div class="row">
-            <div class="col-12 text-center mt-2 mb-4">
-
-                <div class="mr-filter">
-                    <a id="toggle-all" class="mr-filter-active">All</a>
-
-                    {% for category in site.categories %}
-                        {% capture category_name %}{{ category | first }}{% endcapture %}
-                        
-                        {% capture category_id %}{{ category_name | replace: " ", "-" | downcase }}{% endcapture %}
-        
-                        <a id="toggle-{{category_id}}">
-                            {{ category_name }}
-                        </a>
-    
-                    {% endfor %}
-                </div>
-
-            </div>
-        </div>
-
         <div class="row mx-1">
+
+            <!-- <div class="col-12 mx-n3">
+                <h1 class="mr-heading">Collections</h1>
+            </div> -->
 
             <div class="card-columns">
 
-                {% for post in site.posts %}
+                {% for category in site.categories %}
 
-                    {% assign class_list = "" %}
+                    {% capture category_name %}{{ category | first }}{% endcapture %}
+                    {% assign first_post = site.categories[category_name] | first %}
 
-                    {% for category in post.categories %}
+                <div class="mr-art-card mr-category">
+                    <a href="#" class="">
+                        <img src="{{ site.cloudinary_url }}{{ first_post.featured_image }}" class="card-img-top" 
+                            alt={{ category_name }}>
+                        <div class="mr-category-overlay">
+                            <h2 class="art-title">{{ category_name }}</h2>
 
-                        {% capture class_list %}{{ class_list }} {{ category | replace: " ", "-" | downcase }}{% endcapture %}
+                            {% assign other_count = site.categories[category_name] | size | minus: 1 %}
 
-                    {% endfor %}
-
-                    <div class="mr-art-card" data-category="{{ class_list }}">
-                        <a href="{{ post.slug }}">
-                            <img src="{{ site.cloudinary_url }}{{ post.featured_image }}" class="card-img-top" 
-                                alt="{{ post.title }}">
-                            <div class="mr-card-overlay">
-                                <h2 class="art-title">{{ post.title }}</h2>
-                            </div>
-                        </a>
-                    </div>
+                            <h4 class="art-count">
+                                {{ first_post.title }}
+                                {% if other_count != 0 %}
+                                and {{ other_count }} other{% if piece_count > 1 %}s{% endif %}
+                                {% endif %}
+                            </h4>
+                        </div>
+                    </a>
+                </div>
     
                 {% endfor %}
 
@@ -60,23 +47,4 @@
     
 	{% include footer.html %}
 </body>
-<script>
-    $(function() {
-
-        $("[id^='toggle-']").on("click", function() {
-            let className = this.id.replace("toggle-", "");
-
-            if (className === "all") {
-                $("[data-category]").show().finish().addClass("animate-reveal").finish().removeClass("animate-reveal");
-            } else {
-                $("[data-category]").hide();
-                $(`[data-category*="${className}"]`).show().finish().addClass("animate-reveal").finish().removeClass("animate-reveal");
-            }
-
-            $("[id^='toggle-']").removeClass("mr-filter-active");
-            $(this).addClass("mr-filter-active");
-        });
-
-    });
-</script>
 </html>
