@@ -67,7 +67,7 @@ fields:
     options: []
     source:
       type: pages
-      section: 
+      section: collections
       file: 
       path: 
   label: Collection
