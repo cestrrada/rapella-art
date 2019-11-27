@@ -3,15 +3,15 @@
 {% include head.html %}
 <body class="bg-mr-primary">
     {% include nav.html %}
-    <div class="container py-5">
+    <main class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-5">
                 <div class="mr-art-card card-hover">
                     <img src="{{ site.cloudinary_url }}{{ page.featured_image }}" class="card-img-top" alt="{{ page.title }}">
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 pt-4 pt-md-0 px-md-5 my-auto text-center text-md-left">
+            <div class="col-12 col-md-7 pt-4 pt-md-0 px-md-5 my-auto text-center text-md-left">
                 <h4 class="mr-text-detail">
                     {{ page.date | date: "%Y" }}
                 </h4>
@@ -27,7 +27,7 @@
                 {{ content }}
             </div>
         </div>
-    </div>
+    </main>
 	{% include footer.html %}
 </body>
 </html>
