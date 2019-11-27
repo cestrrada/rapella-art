@@ -59,14 +59,23 @@ fields:
   label: Part of Collection
   description: Is this piece part of a collection?
   default: false
-- name: categories
-  type: tag_list
+- name: collection
+  type: select
   default: []
-  label: Collection Name
-  description: The name of the collection that this is a part of.
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: Collection
   showOnly:
     field: is-collection
     value: true
+  description: The collection that this piece is a part of. If you don't see the collection,
+    create it using the sidebar first.
 - name: keywords
   type: tag_list
   default: []
