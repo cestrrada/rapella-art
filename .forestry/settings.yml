@@ -9,6 +9,8 @@ sections:
   label: Collections
   create: documents
   match: "**/*"
+  templates:
+  - collection
 - type: jekyll-posts
   label: Posts
   create: documents
