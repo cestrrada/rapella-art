@@ -38,3 +38,5 @@ fields:
     display_utc: false
     export_format: MM/YYYY
   default: now
+pages:
+- _collections/test-collection.md
