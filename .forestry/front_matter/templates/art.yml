@@ -59,7 +59,7 @@ fields:
   label: Part of Collection
   description: Is this piece part of a collection?
   default: false
-- name: collection_name
+- name: categories
   type: tag_list
   default: []
   label: Collection Name
@@ -67,16 +67,6 @@ fields:
   showOnly:
     field: is-collection
     value: true
-- name: categories
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-    source:
-      type: documents
-  label: categories
-  description: Add and reorder your piece's categories.
 - name: keywords
   type: tag_list
   default: []
