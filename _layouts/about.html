@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-<div class="container">
+<main class="container">
 
     <div class="row mb-4 flex-row-reverse">
 
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-5 my-auto">
             <div class="mr-art-card">
                 <img src="{{ site.cloudinary_url }}{{ page.artist-image }}" class="card-img-top">
             </div>
         </div>
 
-        <div class="col-12 col-md-7 mt-4">
+        <div class="col-12 col-md-7 mt-4 mt-md-0">
             <h1 class="mr-heading">{{ page.title }}</h1>
             {{ content }}
 
@@ -25,4 +25,4 @@ layout: default
 
     </div>
 
-</div>
+</main>
