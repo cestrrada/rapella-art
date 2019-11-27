@@ -1,4 +1,40 @@
 ---
 label: Collection
 hide_body: false
-fields: []
+fields:
+- name: collection_name
+  type: text
+  config:
+    required: true
+  label: Collection Name
+  description: The name of your collection
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+  description: This is usually the same thing as the collection name but in all lowercase.
+    For example, if the collection is named Heroes of Humanity, the slug would be
+    heroes-of-humanity.
+- name: start_date
+  type: datetime
+  label: Start Date
+  description: The collection's start date
+  config:
+    required: false
+    date_format: MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: MM/YYYY
+  default: now
+- name: end_date
+  type: datetime
+  label: End Date
+  description: The collection's end date.
+  config:
+    required: false
+    date_format: MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: MM/YYYY
+  default: now
