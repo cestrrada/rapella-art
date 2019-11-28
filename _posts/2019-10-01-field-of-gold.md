@@ -8,11 +8,8 @@ keywords:
 title: Field of Gold
 date: 2019-10-01 07:00:00 +0000
 medium: Digital
-categories:
-- Animals
-- Category 2
 featured_image: "/v1574049298/horse_j3lrn3.png"
-slug: horse-painting
+slug: field-of-gold
 
 ---
 This is a horse.
