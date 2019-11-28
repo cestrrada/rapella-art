@@ -6,6 +6,8 @@ collection_name: Test Collection
 slug: test-collection
 title: Test Collection
 art_pieces:
+- "/v1574061466/Embers.jpg"
+- "/v1574144561/Sandira_And_Damir_sse6yu.jpg"
 - "/v1574061465/Sweet_Dreams.jpg"
 - "/v1574061467/One-and-the-Same.jpg"
 - "/v1574061467/Lionhearted.jpg"
