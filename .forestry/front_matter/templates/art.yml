@@ -54,28 +54,6 @@ fields:
       file: 
       path: 
   label: Medium
-- name: is-collection
-  type: boolean
-  label: Part of Collection
-  description: Is this piece part of a collection?
-  default: false
-- name: collection
-  type: select
-  default: []
-  config:
-    required: true
-    options: []
-    source:
-      type: pages
-      section: collections
-      file: 
-      path: 
-  label: Collection
-  showOnly:
-    field: is-collection
-    value: true
-  description: The collection that this piece is a part of. If you don't see the collection,
-    create it using the sidebar first.
 - name: keywords
   type: tag_list
   default: []
