@@ -38,5 +38,16 @@ fields:
     display_utc: false
     export_format: MM/YYYY
   default: now
+- name: art_pieces
+  type: image_gallery
+  config: {}
+  label: Art Pieces
+  description: The art pieces that make up this collection.
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
+  description: The image to use as the collection's cover.
 pages:
 - _collections/test-collection.md
