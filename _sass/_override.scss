@@ -24,3 +24,20 @@ h1, h2, h3, h4 {
 main.container {
 	margin-top: 6em;
 }
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+footer {
+	flex-shrink: 0;
+}
