@@ -1,4 +1,5 @@
 ---
+layout: collection
 start_date: 01/2019
 end_date: 11/2019
 collection_name: Test Collection

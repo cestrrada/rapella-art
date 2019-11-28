@@ -26,6 +26,9 @@ collections:
   pages:
     permalink: /:slug
     output: true
+  art-collections:
+    permalink: /collection/:slug
+    output: true
     
 assets:
   img: /assets/img/

@@ -3,48 +3,32 @@
 {% include head.html %}
 <body class="bg-mr-primary">
     {% include nav.html %}
-    
     <main class="container">
-        <div class="row mx-1">
-
-            <!-- <div class="col-12 mx-n3">
-                <h1 class="mr-heading">Collections</h1>
-            </div> -->
-
-            <div class="card-columns">
-
-                {% for category in site.categories %}
-
-                    {% capture category_name %}{{ category | first }}{% endcapture %}
-                    {% assign first_post = site.categories[category_name] | first %}
-
-                <div class="mr-art-card mr-category">
-                    <a href="#" class="">
-                        <img src="{{ site.cloudinary_url }}{{ first_post.featured_image }}" class="card-img-top" 
-                            alt={{ category_name }}>
-                        <div class="mr-category-overlay">
-                            <h2 class="art-title">{{ category_name }}</h2>
-
-                            {% assign other_count = site.categories[category_name] | size | minus: 1 %}
-
-                            <h4 class="art-count">
-                                {{ first_post.title }}
-                                {% if other_count != 0 %}
-                                and {{ other_count }} other{% if piece_count > 1 %}s{% endif %}
-                                {% endif %}
-                            </h4>
-                        </div>
-                    </a>
-                </div>
-    
-                {% endfor %}
-
+        <div class="row">
+            <div class="col-12 col-md-8 mx-md-auto text-md-center">
+                <h1 class="mr-heading">{{ page.title }}</h1>
+                <h4 class="mr-subheading">
+                    {{ page.start_date | date: "%B %Y" }}
+                    {% if page.start_date != nil and page.end_date != nil %} – {% endif %}
+                    {{ page.end_date | date: "%B %Y" }}
+                </h4>
+                {{ content }}
             </div>
-
         </div>
-    
+
+        <div class="row mx-n2 mx-md-0">
+            <div class="card-columns mt-2 mt-md-4">
+                {% for image in page.art_pieces %}
+                    
+                    <div class="mr-art-card my-auto">
+                        <img src="{{ site.cloudinary_url }}/{{ image }}" class="card-img-top">
+                    </div>
+
+                {% endfor %}
+            </div>
+        </div>
+
     </main>
-    
 	{% include footer.html %}
 </body>
 </html>

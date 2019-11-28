@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="bg-mr-primary">
+    {% include nav.html %}
+    
+    <main class="container">
+        <div class="row mx-0">
+
+            <div class="col-12 pl-0">
+                <h1 class="mr-heading">Collections</h1>
+            </div>
+
+            <div class="card-columns">
+
+                {% for collection in site.art-collections %}
+
+                    {% capture collection_name %}{{ collection | first }}{% endcapture %}
+                    {% assign first_post = site.categories[category_name] | first %}
+
+                <div class="mr-art-card mr-category">
+                    <a href="{{ collection.url }}" class="">
+                        <img src="{{ site.cloudinary_url }}{{ collection.featured_image }}" class="card-img-top" 
+                            alt={{ category_name }}>
+                        <div class="mr-category-overlay">
+                            <h2 class="art-title">{{ collection.title }}</h2>
+
+                            {% assign count = collection.art_pieces | size %}
+
+                            <h4 class="art-count">
+                                {{ count }} piece{% if count > 1 %}s{% endif %}
+                            </h4>
+                        </div>
+                    </a>
+                </div>
+    
+                {% endfor %}
+
+            </div>
+
+        </div>
+    
+    </main>
+    
+	{% include footer.html %}
+</body>
+</html>
