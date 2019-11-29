@@ -49,3 +49,5 @@ fields:
     maxSize: 250
   label: Featured Image
   description: The image to use as the collection's cover.
+pages:
+- _art-collections/warrior-collection.md
