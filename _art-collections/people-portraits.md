@@ -15,5 +15,6 @@ art_pieces:
 - "/v1574144729/IMG_1249-1_swmsud.jpg"
 - "/v1574993619/Zayn_tl1lmy.jpg"
 featured_image: "/v1574061466/Dragon-and-the-Wolf.jpg"
+layout: ''
 
 ---
