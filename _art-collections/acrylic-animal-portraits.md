@@ -1,4 +1,5 @@
 ---
+layout: collection
 start_date: 
 end_date: 
 title: Acrylic Animal Portraits

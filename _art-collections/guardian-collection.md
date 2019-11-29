@@ -2,7 +2,6 @@
 layout: collection
 start_date: 
 end_date: 
-collection_name: Test Collection
 slug: warrior-series
 title: Guardian Collection
 art_pieces:
