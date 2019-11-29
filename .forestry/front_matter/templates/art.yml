@@ -68,6 +68,7 @@ fields:
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
 pages:
+- _posts/the-hunt.md
 - _posts/ezra.md
 - _posts/2017-11-01-the-understanding.md
 - _posts/2017-11-01-arabian-horse.md
