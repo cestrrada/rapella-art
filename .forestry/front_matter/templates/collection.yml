@@ -50,4 +50,5 @@ fields:
   label: Featured Image
   description: The image to use as the collection's cover.
 pages:
+- _art-collections/people-portraits.md
 - _art-collections/warrior-collection.md
