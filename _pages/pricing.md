@@ -8,9 +8,9 @@ medium_2_description: ''
 medium_3: Acrylic
 medium_3_description: ''
 slug: pricing
-medium_1_start_price: '50.00'
-medium_2_start_price: '50.00'
-medium_3_start_price: '70.00'
+medium_1_start_price: '150.00'
+medium_2_start_price: '100.00'
+medium_3_start_price: '150.00'
 medium_1_samples:
 - "/v1574061465/Sweet_Dreams.jpg"
 - "/v1574141901/Raudha_hwwroj.png"
