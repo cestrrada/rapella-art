@@ -10,4 +10,4 @@ art_pieces:
 featured_image: "/v1574144890/Untitled_Artwork_5_copy_xhwfyf.png"
 
 ---
-A series of digital drawings of girl warriors 
+A series of digital drawings of girl warriors.
