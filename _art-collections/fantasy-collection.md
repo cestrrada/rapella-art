@@ -5,7 +5,7 @@ title: Fantasy Collection
 slug: fantasy-collection
 art_pieces: []
 featured_image: ''
-layout: ''
+layout: collection
 published: false
 
 ---
