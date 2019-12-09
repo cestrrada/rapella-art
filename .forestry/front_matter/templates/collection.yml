@@ -7,7 +7,7 @@ fields:
   config:
     required: true
   label: Layout
-  description: The page's layout. If you're getting errors, this should be 'collection'
+  hidden: true
   default: collection
 - name: title
   type: text
