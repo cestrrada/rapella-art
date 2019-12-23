@@ -68,19 +68,19 @@ fields:
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
 pages:
-- _posts/ezra.md
-- _posts/the-hunt.md
-- _posts/2017-11-01-the-understanding.md
-- _posts/2017-11-01-arabian-horse.md
-- _posts/2019-11-01-marina.md
-- _posts/2019-11-01-sandira-and-damir.md
-- _posts/2019-10-01-mourning-angels.md
 - _posts/2010-03-01-like-porcelain.md
-- _posts/2019-11-01-raudha.md
-- _posts/2019-11-01-the-last-of-them.md
+- _posts/2017-11-01-arabian-horse.md
+- _posts/2017-11-01-the-understanding.md
 - _posts/2018-11-01-one-and-the-same.md
-- _posts/2019-11-01-the-dragon-and-the-wolf.md
+- _posts/2019-10-01-mourning-angels.md
+- _posts/2019-11-01-marina.md
 - _posts/2019-11-01-purple-hair.md
+- _posts/2019-11-01-raudha.md
+- _posts/2019-11-01-sandira-and-damir.md
+- _posts/2019-11-01-the-dragon-and-the-wolf.md
+- _posts/2019-11-01-the-last-of-them.md
 - _posts/2019-11-01-zayn.md
 - _posts/2019-11-19-pupper.md
+- _posts/ezra.md
 - _posts/girl.md
+- _posts/the-hunt.md
