@@ -24,6 +24,5 @@ menu:
   header:
     identifier: pricing
     weight: 5
-    title: Commissions
 
 ---
