@@ -33,7 +33,7 @@ social:
     url: https://www.linkedin.com/in/mrapella/
   - name: Email
     icon: fas fa-envelope
-    url: mailto:mrapella@csumb.edu
+    url: "mailto:mrapella@csumb.edu?subject=Rapella Art: General Inquiry"
 
 # Projects
 collections:
