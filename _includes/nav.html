@@ -11,7 +11,7 @@
 
         <div id="navbar-content" class="collapse navbar-collapse mt-2 mb-3 my-md-0">
             <ul class="navbar-nav">
-                {% for item in site.menus.header %}
+                {% for item in site.menu.header %}
                 <li class="nav-item my-1 my-md-0">
                     <a href={{item.url}} 
                         class="nav-link {% if item.url == page.url %}active{% endif %}">

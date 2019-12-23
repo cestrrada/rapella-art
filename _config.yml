@@ -6,6 +6,20 @@ permalink: /:slug
 cloudinary_url: "https://res.cloudinary.com/rapella/t_optimized"
 store-open: false
 
+menu:
+  header:
+    - url: /
+      title: Home
+    - url: /collections
+      title: Collections
+    - url: /about
+      title: About the Artist
+    - url: /statement
+      title: Artist Statement
+    - url: /pricing
+      title: Commissions
+
+
 # Social media links
 social:
   - name: Facebook
