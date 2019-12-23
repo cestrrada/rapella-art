@@ -1,8 +1,9 @@
 ---
 layout: pricing
-title: Pricing
+title: Commissions
 medium_1: Digital
-medium_1_description: "Best option for ordering multiple prints and custom sizes. <em>Pricing varies depending on subject and size.</em>"
+medium_1_description: Best option for ordering multiple prints and custom sizes. <em>Pricing
+  varies depending on subject and size.</em>
 medium_2: Graphite
 medium_2_description: "<em>Pricing varies depending on subject and size.</em>"
 medium_3: Acrylic
