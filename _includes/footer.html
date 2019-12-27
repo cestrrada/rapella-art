@@ -7,7 +7,7 @@
             <div class="col-12 col-md-8 text-center text-md-right mr-social-footer mt-2 my-md-auto">
 
                 {% for link in site.social %}
-                    <a href="{{link.url}}" class="text-light mx-3 ml-md-4 mr-md-2" aria-label="link.name">
+                    <a href="{{link.url}}" class="text-light mx-3 ml-md-4 mr-md-2" aria-label="{{link.name}}">
                         <i class="{{link.icon}}"></i>
                     </a>
                 {% endfor %}
