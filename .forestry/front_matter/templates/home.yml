@@ -18,6 +18,7 @@ fields:
   name: featured
   label: Featured Image
   description: The image to show when sharing the website to social media.
+  hidden: true
 - name: posts
   type: list
   config:
