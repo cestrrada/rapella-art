@@ -4,13 +4,28 @@ hide_body: false
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
+  hidden: true
 - type: text
   name: description
-  label: description
+  label: Description
+  description: The website's description for Google.
 - type: file
   name: featured
-  label: featured
+  label: Featured Image
+  description: The image to show when sharing the website to social media.
+- name: posts
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: jekyll-posts
+  label: Posts
+  description: A list of sortable posts to display on the home page.
