@@ -4,6 +4,7 @@ logo: /assets/img/site/logo.png
 permalink: /:slug
 
 cloudinary_url: "https://res.cloudinary.com/rapella/t_optimized"
+cloudinary_url_full: "https://res.cloudinary.com/rapella"
 store-open: false
 
 menu:

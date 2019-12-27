@@ -14,13 +14,13 @@ featured: assets/site/featured.jpg
     </div>
 
     <div class="row mx-n2 mx-md-0">
-        <div class="card-columns">
+        <div class="card-columns" id="gallery">
 
             {% for post in site.posts %}
 
-            <div class="mr-art-card">
-                <a href="{{ post.slug }}">
-                    <img src="{{ site.cloudinary_url }}/{{ post.featured_image }}" class="card-img-top" 
+            <div class="mr-art-card" data-remote="{{ site.cloudinary_url_full }}{{ post.featured_image }}" data-toggle="lightbox" data-gallery="gallery" data-footer="{{post.title}}, {{ post.medium }} ({{ post.date | date: '%Y' }})">
+                <a href="#" >
+                    <img src="{{ site.cloudinary_url }}{{ post.featured_image }}" class="card-img-top" 
                         alt="{{ post.title }}">
                     <div class="mr-card-overlay">
                         <h2 class="art-title">{{ post.title }}</h2>

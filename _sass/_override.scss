@@ -41,3 +41,32 @@ main {
 footer {
 	flex-shrink: 0;
 }
+
+.ekko-lightbox {
+	.modal-content {
+		@extend .bg-mr-accent;
+		border: 0;
+		border-radius: 0;
+	}
+
+	.modal-body {
+		background: transparent;
+	}
+
+	.modal-footer {
+		color: white;
+		justify-content: flex-start;
+		padding-top: 0;
+		border: 0;
+	}
+
+	.ekko-lightbox-nav-overlay a {
+		color: white;
+		transition: .5s;
+	
+		&:hover {
+			opacity: 1;
+			transition: .5s;
+		}
+	}
+}
