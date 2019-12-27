@@ -13,6 +13,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
 
+	<!-- Bricklayer -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.2/bricklayer.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.2/bricklayer.min.js"></script>
+
 	<link rel="stylesheet" href="/assets/css/styles.css">
 
 	<script> 
@@ -23,6 +27,8 @@
 				event.preventDefault();
 				$(this).ekkoLightbox();
 			});
+
+			var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
 
 		});
 	</script>

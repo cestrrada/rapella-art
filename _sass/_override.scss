@@ -70,3 +70,17 @@ footer {
 		}
 	}
 }
+
+@include media-breakpoint-up(sm) {
+	.bricklayer-column-sizer {
+		/* divide by 3. */
+		width: 50%;
+	  }
+}
+
+@include media-breakpoint-up(md) {
+	.bricklayer-column-sizer {
+		/* divide by 3. */
+		width: 33.3%;
+	  }
+}
