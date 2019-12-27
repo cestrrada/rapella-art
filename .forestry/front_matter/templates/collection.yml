@@ -46,14 +46,8 @@ fields:
     export_format: MM/YYYY
   default: now
 - name: art_pieces
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: pages
-      section: jekyll-posts
+  type: image_gallery
+  config: {}
   label: Art Pieces
   description: The art pieces that make up this collection.
 - name: featured_image
