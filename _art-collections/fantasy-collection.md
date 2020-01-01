@@ -1,7 +1,7 @@
 ---
 start_date: 
 end_date: 
-title: Illustration Collection
+title: Illustrations
 slug: fantasy-collection
 art_pieces:
 - "/v1577919167/Sweet_Dreams_q9nuta.jpg"
