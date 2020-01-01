@@ -6,7 +6,7 @@ medium_1_description: Best option for ordering multiple prints and custom sizes.
   varies depending on subject and size.</em>
 medium_2: Graphite
 medium_2_description: "<em>Pricing varies depending on subject and size.</em>"
-medium_3: Acrylic
+medium_3: Acrylic & Oil
 medium_3_description: "<em>Pricing varies depending on subject and size.</em>"
 slug: pricing
 medium_1_start_price: '150.00'
