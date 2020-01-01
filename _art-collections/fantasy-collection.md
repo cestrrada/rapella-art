@@ -1,7 +1,7 @@
 ---
 start_date: 
 end_date: 
-title: Fantasy Collection
+title: Illustration Collection
 slug: fantasy-collection
 art_pieces:
 - "/v1577919066/Embers_2_os0lnc.jpg"
