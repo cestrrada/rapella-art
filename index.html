@@ -4,8 +4,13 @@ title: Home
 description: Digital & Fine Art by Madi Rapella
 featured: assets/site/featured.jpg
 posts:
-- _posts/2019-11-01-zayn.md
+- _posts/2019-11-01-girl.md
+- _posts/the-snow-princess.md
+- _posts/2019-11-01-ezra.md
+- _posts/2019-11-01-the-hunt.md
+- _posts/the-runaway.md
 - _posts/2019-11-01-sandira-and-damir.md
+- _posts/2019-11-01-zayn.md
 - _posts/2019-10-01-field-of-gold.md
 - _posts/2019-11-01-the-last-of-them.md
 - _posts/2019-11-01-raudha.md
@@ -28,12 +33,12 @@ posts:
 
     <div class="text-center mt-n3 mb-4">
         <a href="/">
-            <img src="/assets/site/logo.png" alt="Rapella Art site logo" class="mr-site-logo">
+            <img src="/assets/site/logo.png" alt="" class="mr-site-logo">
         </a>
     </div>
 
     <div class="row mx-n2 mx-md-0">
-        <div class="bricklayer" id="gallery">
+        <div class="card-columns" id="gallery">
 
             {% for postref in page.posts %}
                 {% assign postobject = site.posts | where: "path", postref %}
