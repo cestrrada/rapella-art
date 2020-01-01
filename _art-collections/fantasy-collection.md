@@ -4,6 +4,7 @@ end_date:
 title: Illustrations
 slug: fantasy-collection
 art_pieces:
+- "/v1577919249/Lionhearted_kdmtea.jpg"
 - "/v1577919167/Sweet_Dreams_q9nuta.jpg"
 - "/v1577919070/Mourning_Angels_ljhnmy.jpg"
 - "/v1577919066/Embers_2_os0lnc.jpg"
