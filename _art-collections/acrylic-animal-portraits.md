@@ -1,7 +1,7 @@
 ---
 start_date: 
 end_date: 
-title: Acrylic Animal Portraits
+title: Animal Portraits
 slug: animal-portraits
 art_pieces:
 - "/v1574994113/Screen_Shot_2019-09-15_at_6.00.41_PM_cbcsat.png"
