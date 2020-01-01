@@ -2,7 +2,7 @@
 layout: collection
 start_date: 
 end_date: 
-title: Cartoon Collection
+title: Cartoons
 slug: cartoon-collection
 art_pieces:
 - "/v1574993986/Cartoon_1_No_Parking_x6t4ya.png"
