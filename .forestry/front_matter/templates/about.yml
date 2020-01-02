@@ -25,5 +25,21 @@ fields:
     maxSize: 250
   label: Resume
   description: Upload a copy of your resume.
+- name: statement-image
+  type: file
+  config:
+    maxSize: 250
+  label: Statement Image
+  description: The painting to use for the artist statement section.
+- name: artist_statement
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Artist Statement
+  description: Your artist statement.
 pages:
 - _pages/about.md
