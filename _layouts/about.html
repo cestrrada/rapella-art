@@ -3,24 +3,41 @@ layout: default
 ---
 <main class="container">
 
-    <div class="row mb-4 flex-row-reverse">
+    <div class="row mb-4">
 
         <div class="col-12 col-md-5 my-auto">
-            <div class="mr-art-card">
+            <div class="mr-art-card card-shadow">
                 <img src="{{ site.cloudinary_url }}{{ page.artist-image }}" class="card-img-top">
             </div>
         </div>
 
         <div class="col-12 col-md-7 mt-4 mt-md-0">
-            <h1 class="mr-heading">{{ page.title }}</h1>
-            {{ content }}
+            <div class="mx-md-5">
+                <h1 class="mr-heading">{{ page.title }}</h1>
+                {{ content }}
 
-            {% if page.resume.size > 0 %}
-                <a href="{{ site.cloudinary_url }}{{page.resume}}" class="mr-btn my-2 px-4 py-2">
-                    <i class="fas fa-file-pdf mr-1"></i>
-                    View Resume
-                </a>
-            {% endif %}
+                {% if page.resume.size > 0 %}
+                    <a href="{{ site.cloudinary_url }}{{page.resume}}" class="mr-btn my-2 px-4 py-2">
+                        <i class="fas fa-file-pdf mr-1"></i>
+                        View Resume
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mb-4 flex-row-reverse">
+
+        <div class="col-12 col-md-5 my-auto">
+            <div class="mr-art-card card-shadow">
+                <img src="{{ site.cloudinary_url }}{{ page.statement-image }}" class="card-img-top">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-7 mt-4 mt-md-0">
+            <h1 class="mr-heading">Artist Statement</h1>
+            {{ page.artist_statement }}
         </div>
 
     </div>

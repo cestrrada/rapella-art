@@ -15,8 +15,6 @@ menu:
       title: Collections
     - url: /about
       title: About the Artist
-    - url: /statement
-      title: Artist Statement
     - url: /pricing
       title: Commissions
 
