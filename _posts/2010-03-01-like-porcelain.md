@@ -2,7 +2,7 @@
 layout: single
 keywords: []
 title: Like Porcelain
-date: 2010-03-01T08:00:00.000+00:00
+date: 2019-03-01 08:00:00 +0000
 medium: Fine
 featured_image: "/v1574055761/like-porcelain_hfuymo.jpg"
 slug: like-porcelain
