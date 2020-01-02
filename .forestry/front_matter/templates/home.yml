@@ -29,6 +29,8 @@ fields:
       type: pages
       section: jekyll-posts
   label: Posts
-  description: A list of sortable posts to display on the home page.
+  description: A list of sortable posts to display on the home page. If a post on
+    this list is not showing up, delete it from below, publish the post, then add
+    it back here again.
 pages:
 - index.html
