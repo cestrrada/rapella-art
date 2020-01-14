@@ -28,7 +28,10 @@
 				$(this).ekkoLightbox();
 			});
 
-			var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
+			
+			if ($(".bricklayer").length) {
+				var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
+			}
 
 		});
 	</script>
