@@ -30,8 +30,8 @@ fields:
       section: jekyll-posts
       file: _posts/2019-01-01-the-witcher.md
   label: Posts
-  description: A list of sortable posts to display on the home page. If a post on
-    this list is not showing up, delete it from below, publish the post, then add
+  description: A list of sortable posts to display on the home page.<br><br>If a post
+    on this list is not showing up, save the post as a draft, publish it, then add
     it back here again.
 pages:
 - index.html
