@@ -4,6 +4,7 @@ end_date:
 title: Illustrations
 slug: fantasy-collection
 art_pieces:
+- "/v1588449104/F15CD20F-28CC-4E20-8660-BEC1668CAB20_cuxqtx.jpg"
 - "/v1588449015/IMG_1148_udjjua.jpg"
 - "/v1588449010/Portfolio_2_dhlpoa.jpg"
 - "/v1588449002/portfolio_3_umvr7g.png"
