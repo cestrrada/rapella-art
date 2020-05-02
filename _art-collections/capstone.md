@@ -12,6 +12,5 @@ art_pieces:
 - "/v1588446860/CC409F3C-25CD-48C9-A3EB-AA5FEC9D83ED_1_100_o_aiodfj.jpg"
 - "/v1588446668/cher_ami_uyditk.png"
 featured_image: "/v1588446860/CC409F3C-25CD-48C9-A3EB-AA5FEC9D83ED_1_100_o_aiodfj.jpg"
-published: false
 
 ---
