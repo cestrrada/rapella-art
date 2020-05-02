@@ -9,7 +9,6 @@ art_pieces:
 - "/v1588446754/Reckless_1_l7ogof.jpg"
 - "/v1588446789/70252EE6-8DDA-4FFF-A382-18CEA9549A24_1_201_a_krcphr.jpg"
 - "/v1588447719/IMG_4052_mkgtog.jpg"
-- "/v1588270694/IMG_3994_gss5yo.heic"
 - "/v1577919296/Field_of_Gold_peotty.png"
 - "/v1574994113/Screen_Shot_2019-09-15_at_6.00.41_PM_cbcsat.png"
 - "/v1574142448/Screen_Shot_2019-09-15_at_6.00.53_PM_ddejgk.png"
