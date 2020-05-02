@@ -5,6 +5,7 @@ end_date:
 title: 'People Portraits '
 slug: people-portraits
 art_pieces:
+- "/v1588449070/Untitled_Artwork_4_eujogn.png"
 - "/v1577919493/Like_Porcelain__tzxgce.png"
 - "/v1577919460/Untitled_Artwork_14_gawf6d.png"
 - "/v1577918814/E1CC193A-8AC7-4B55-94DF-5DA967D309D2_1_100_o_s4nxye.jpg"
