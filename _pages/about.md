@@ -11,10 +11,10 @@ artist_statement: |-
   <p>I specifically enjoy painting animals and children together because I believe they have an otherworldly bond. With this connection, I represent the innocence of the child and the tenderness within an animal’s soul. In addition, I ​purposefully work with a subdued color palette to encourage a sense of calmness among the viewers. This color palette is selected to avoid distraction from the personal interaction among the subjects within the work itself. Themes of animal equality, symbiotic friendship, and empowerment are threaded throughout my work.</p>
 
 ---
-Madi Rapella focuses on conveying the stories of people and animals through a realistic portraiture style. She mainly works in digital and acrylic mediums. Madi is currently pursuing a bachelor’s degree in visual and public art at California State University, Monterey Bay.
+Madi Rapella is a digital and traditional artist from Park City, Utah. With her recent body of work, she focuses on conveying the stories of people and animals through photo-realistic portraiture and fantasy illustrations.
 
-Her work has been shown in several fundraisers such as the St. Baldrick’s childhood cancer charity, Arts for the Cause, and the Leukemia and Lymphoma Society auction. For her last year in highschool, Madi became the founder of Madi’s Respite Service, an after-school arts program designed for special needs children.
+Her work has been shown in several fundraisers such as the 2012 St. Baldrick’s childhood cancer charity in Las Vegas, the 2019 Arts for the Cause in Monterey, and the 2019 Leukemia and Lymphoma Society auction in Salt Lake City.
 
-In college, she made original cartoons for the student-run newspaper, [_The Lutrinae_](https://thelutrinae.com/) from 2017 to 2019. Meanwhile, she produced several illustrations for Cambridge University Press’s book of Aztec Weaponry. For the summer of 2019, Madi was an art education intern at the Kimball Art Center as well as an art instructor at Paint Mixer in Park City, Utah.
+Then from 2017 to 2019, Madi has made original cartoons for California State University Monterey Bay’s student-run newspaper, _The Lutrinae._ Meanwhile, she produced published illustrations of Aztec weaponry for _Cambridge History of War._
 
-She is currently working on her year-long senior capstone _Heroes of Humanity._
+Madi is currently working towards her Bachelor’s degree in art at CSUMB. She is also interning at Jespionne, a New York based company, where she is digitally designing character icons and movie posters for tv shows.
