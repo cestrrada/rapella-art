@@ -4,6 +4,9 @@ end_date:
 title: Illustrations
 slug: fantasy-collection
 art_pieces:
+- "/v1588449015/IMG_1148_udjjua.jpg"
+- "/v1588449010/Portfolio_2_dhlpoa.jpg"
+- "/v1588449002/portfolio_3_umvr7g.png"
 - "/v1588270665/Untitled_Artwork_rg7rk4.jpg"
 - "/v1588270446/Untitled_Artwork_14_wul6sx.png"
 - "/v1574144561/Sandira_And_Damir_sse6yu.jpg"
