@@ -58,7 +58,6 @@ fields:
   description: The image to use as the collection's cover.
 pages:
 - _art-collections/acrylic-animal-portraits.md
-- _art-collections/capstone.md
 - _art-collections/cartoon-collection.md
 - _art-collections/fantasy-collection.md
 - _art-collections/gigi.md
