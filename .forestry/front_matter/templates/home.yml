@@ -19,5 +19,16 @@ fields:
   label: Featured Image
   description: The image to show when sharing the website to social media.
   hidden: true
+- name: posts
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: jekyll-posts
+  label: Posts
+  description: A list of sortable posts to display on the home page.
 pages:
 - index.html
