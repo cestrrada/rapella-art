@@ -62,5 +62,3 @@ fields:
   label: Featured Image
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
-pages:
-- _art/testing-art-collection.md
