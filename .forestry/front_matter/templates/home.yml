@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Home
 hide_body: true
 fields:
@@ -22,19 +19,5 @@ fields:
   label: Featured Image
   description: The image to show when sharing the website to social media.
   hidden: true
-- name: posts
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: pages
-      section: jekyll-posts
-      file: _posts/2019-01-01-the-witcher.md
-  label: Posts
-  description: A list of sortable posts to display on the home page.<br><br>If a post
-    on this list is not showing up, save the post as a draft, publish it, then add
-    it back here again.
 pages:
 - index.html
