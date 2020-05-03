@@ -1,8 +1,7 @@
 ---
+title: Illustrations
 start_date: 
 end_date: 
-title: Illustrations
-slug: fantasy-collection
 art_pieces:
 - "/v1588449104/F15CD20F-28CC-4E20-8660-BEC1668CAB20_cuxqtx.jpg"
 - "/v1588449015/IMG_1148_udjjua.jpg"
@@ -20,5 +19,5 @@ art_pieces:
 - "/v1577918399/5902D4C2-455C-4ABA-88C4-E84F2BAA9F62_zhmfqa.jpg"
 featured_image: "/v1577918444/50024A70-D24B-4F26-875E-B0FE4B4A07D4_1_100_o_kne0px.jpg"
 layout: collection
-
 ---
+

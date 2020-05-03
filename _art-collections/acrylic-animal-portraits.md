@@ -1,8 +1,7 @@
 ---
+title: Animal Portraits
 start_date: 
 end_date: 
-title: Animal Portraits
-slug: animal-portraits
 art_pieces:
 - "/v1588446668/cher_ami_uyditk.png"
 - "/v1588446738/92AA0DD0-1F22-4086-99B4-68E18DB000A2_melph1.jpg"
@@ -15,5 +14,5 @@ art_pieces:
 - "/v1574994075/Screen_Shot_2019-09-15_at_6.01.05_PM_pzvggq.png"
 featured_image: "/v1574994113/Screen_Shot_2019-09-15_at_6.00.41_PM_cbcsat.png"
 layout: collection
-
 ---
+

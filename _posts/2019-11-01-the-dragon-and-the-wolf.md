@@ -1,10 +1,9 @@
 ---
+title: The Dragon and the Wolf
+date: 2019-11-01 07:00:00 Z
 layout: single
 keywords: []
-title: The Dragon and the Wolf
-slug: the-dragon-and-the-wolf
-date: 2019-11-01 07:00:00 +0000
 medium: Digital
 featured_image: "/v1574061466/Dragon-and-the-Wolf.jpg"
-
 ---
+

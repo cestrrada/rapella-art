@@ -1,6 +1,6 @@
 ---
-layout: pricing
 title: Commissions
+layout: pricing
 medium_1: Digital
 medium_1_description: Best option for ordering multiple prints and custom sizes. <em>Pricing
   varies depending on subject and size.</em>
@@ -8,7 +8,6 @@ medium_2: Graphite
 medium_2_description: "<em>Pricing varies depending on subject and size.</em>"
 medium_3: 'Acrylic & Oil '
 medium_3_description: "<em>Pricing varies depending on subject and size.</em>"
-slug: pricing
 medium_1_start_price: '150.00'
 medium_2_start_price: '100.00'
 medium_3_start_price: '150.00'
@@ -21,5 +20,5 @@ medium_2_samples:
 medium_3_samples:
 - "/v1574142448/Screen_Shot_2019-09-15_at_6.00.53_PM_ddejgk.png"
 - "/v1574061465/The-Understanding.jpg"
-
 ---
+

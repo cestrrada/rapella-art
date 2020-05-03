@@ -1,57 +1,54 @@
+---
 title: Rapella Art
+timezone: UTC
+collections:
+  art-collections:
+    title: Art Collections
+    output: true
+    permalink: "/collection/:slug"
+  pages:
+    title: Pages
+    output: true
+    permalink: "/:slug"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 home_title: Digital & Fine Art by Madi Rapella
-logo: /assets/img/site/logo.png
-permalink: /:slug
-
-cloudinary_url: "https://res.cloudinary.com/rapella/t_optimized"
-cloudinary_url_full: "https://res.cloudinary.com/rapella"
+logo: "/assets/img/site/logo.png"
+permalink: "/:slug"
+cloudinary_url: https://res.cloudinary.com/rapella/t_optimized
+cloudinary_url_full: https://res.cloudinary.com/rapella
 store-open: false
-
 menu:
   header:
-    - url: /
-      title: Home
-    - url: /collections
-      title: Collections
-    - url: /about
-      title: About the Artist
-    - url: /pricing
-      title: Commissions
-
-
-# Social media links
+  - url: "/"
+    title: Home
+  - url: "/collections"
+    title: Collections
+  - url: "/about"
+    title: About the Artist
+  - url: "/pricing"
+    title: Commissions
 social:
-  - name: Facebook
-    icon: fab fa-facebook
-    url: https://www.facebook.com/madi.rapella.3
-  - name: Instagram
-    icon: fab fa-instagram
-    url: https://instagram.com/rapellaart
-  - name: LinkedIn
-    icon: fab fa-linkedin-in
-    url: https://www.linkedin.com/in/mrapella/
-  - name: Email
-    icon: fas fa-envelope
-    url: "mailto:mrapella@csumb.edu?subject=Rapella Art: General Inquiry"
-
-# Projects
-collections:
-  pages:
-    permalink: /:slug
-    output: true
-  art-collections:
-    permalink: /collection/:slug
-    output: true
-    
+- name: Facebook
+  icon: fab fa-facebook
+  url: https://www.facebook.com/madi.rapella.3
+- name: Instagram
+  icon: fab fa-instagram
+  url: https://instagram.com/rapellaart
+- name: LinkedIn
+  icon: fab fa-linkedin-in
+  url: https://www.linkedin.com/in/mrapella/
+- name: Email
+  icon: fas fa-envelope
+  url: 'mailto:mrapella@csumb.edu?subject=Rapella Art: General Inquiry'
 assets:
-  img: /assets/img/
-  css: /assets/css/
-  js: /assets/js/
+  img: "/assets/img/"
+  css: "/assets/css/"
+  js: "/assets/js/"
   files: assets/files/
-    
-# Project Settings
-    
 sass:
   style: compressed
-  
-# host: 0.0.0.0

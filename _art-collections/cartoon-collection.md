@@ -1,9 +1,8 @@
 ---
+title: Cartoons
 layout: collection
 start_date: 
 end_date: 
-title: Cartoons
-slug: cartoon-collection
 art_pieces:
 - "/v1574993986/Cartoon_1_No_Parking_x6t4ya.png"
 - "/v1574993968/Cartoon_10_srlw1w.png"
@@ -16,6 +15,6 @@ art_pieces:
 - "/v1574061467/Cartoon-9.jpg"
 - "/v1574061466/Cartoon-10-Ramen.jpg"
 featured_image: "/v1574993920/Cartoon_5_The_Human_Vacuum_yuwf9j.jpg"
-
 ---
+
 A series of original cartoons made for The Lutrinae newspaper.

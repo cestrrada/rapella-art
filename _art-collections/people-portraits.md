@@ -1,9 +1,8 @@
 ---
+title: 'People Portraits '
 layout: collection
 start_date: 
 end_date: 
-title: 'People Portraits '
-slug: people-portraits
 art_pieces:
 - "/v1588449070/Untitled_Artwork_4_eujogn.png"
 - "/v1577919493/Like_Porcelain__tzxgce.png"
@@ -20,5 +19,5 @@ art_pieces:
 - "/v1574144729/IMG_1249-1_swmsud.jpg"
 - "/v1574993619/Zayn_tl1lmy.jpg"
 featured_image: "/v1574061466/Dragon-and-the-Wolf.jpg"
-
 ---
+
