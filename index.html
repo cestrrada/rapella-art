@@ -4,29 +4,28 @@ title: Home
 description: Digital & Fine Art by Madi Rapella
 featured: assets/site/featured.jpg
 posts:
-- _posts/test-post.md
-- _posts/2020-04-01-the-redemption.md
-- _posts/2020-04-01-finn-in-the-forest.md
-- _posts/2019-11-01-the-hunt.md
-- _posts/2019-10-01-field-of-gold.md
-- _posts/2019-01-01-lionhearted.md
-- _posts/2019-01-01-the-witcher.md
-- _posts/2019-11-01-sandira-and-damir.md
-- _posts/2019-11-01-zayn.md
-- _posts/2019-01-01-the-snow-princess.md
-- _posts/2018-11-01-one-and-the-same.md
-- _posts/2019-11-01-the-dragon-and-the-wolf.md
-- _posts/2019-11-01-purple-hair.md
-- _posts/2019-11-01-the-last-of-them.md
-- _posts/2017-11-01-the-understanding.md
-- _posts/2019-11-19-pupper.md
-- _posts/2017-11-01-arabian-horse.md
-- _posts/2019-11-01-raudha.md
-- _posts/2019-01-01-the-runaway.md
-- _posts/2019-11-01-girl.md
-- _posts/2019-11-01-self-portrait.md
-- _posts/2019-11-01-marina.md
-- _posts/2019-10-01-mourning-angels.md
+- _art/the-redemption.md
+- _art/finn-in-the-forest.md
+- _art/the-hunt.md
+- _art/field-of-gold.md
+- _art/lionhearted.md
+- _art/the-witcher.md
+- _art/sandira-and-damir.md
+- _art/zayn.md
+- _art/the-snow-princess.md
+- _art/one-and-the-same.md
+- _art/the-dragon-and-the-wolf.md
+- _art/purple-hair.md
+- _art/the-last-of-them.md
+- _art/the-understanding.md
+- _art/pupper.md
+- _art/arabian-horse.md
+- _art/raudha.md
+- _art/the-runaway.md
+- _art/girl.md
+- _art/self-portrait.md
+- _art/marina.md
+- _art/mourning-angels.md
 
 ---
 <main class="container">
@@ -41,7 +40,7 @@ posts:
         <div class="bricklayer" id="gallery">
 
             {% for postref in page.posts %}
-                {% assign postobject = site.posts | where: "path", postref %}
+                {% assign postobject = site.art | where: "path", postref %}
                 {% assign post = postobject[0] %}
 
             <div class="mr-art-card" data-remote="{{ site.cloudinary_url_full }}{{ post.featured_image }}" data-toggle="lightbox" data-gallery="gallery" data-footer="{{post.title}}, {{ post.medium }} ({{ post.date | date: '%Y' }})">

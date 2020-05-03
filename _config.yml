@@ -2,6 +2,9 @@
 title: Rapella Art
 timezone: UTC
 collections:
+  art:
+    title: Art
+    output: false
   art-collections:
     title: Art Collections
     output: true
