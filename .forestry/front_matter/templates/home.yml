@@ -27,7 +27,7 @@ fields:
     max: 
     source:
       type: pages
-      section: jekyll-posts
+      section: collections
   label: Posts
   description: A list of sortable posts to display on the home page.
 pages:
