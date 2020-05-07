@@ -6,10 +6,10 @@ medium_1_description: Best option for ordering multiple prints and custom sizes.
   varies depending on subject and size.</em>
 medium_2: 'Digital Illustrations '
 medium_2_description: "<em>Pricing varies depending on subject and size.</em>"
-medium_3: 'Acrylic & Oil '
+medium_3: 'Acrylic or Oil Portraits '
 medium_3_description: "<em>Pricing varies depending on subject and size.</em>"
-medium_1_start_price: '39.00'
-medium_2_start_price: '20.00'
+medium_1_start_price: '40.00'
+medium_2_start_price: '30.00'
 medium_3_start_price: '40.00'
 medium_1_samples:
 - "/v1574993619/Zayn_tl1lmy.jpg"
