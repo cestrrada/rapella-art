@@ -21,5 +21,6 @@ medium_3_samples:
 - "/v1574142448/Screen_Shot_2019-09-15_at_6.00.53_PM_ddejgk.png"
 - "/v1588446754/Reckless_1_l7ogof.jpg"
 slug: commissions
+published: false
 
 ---
