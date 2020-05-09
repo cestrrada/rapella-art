@@ -5,6 +5,7 @@ end_date: 05/2020
 title: Heroes of Humanity (Capstone)
 slug: heroes-of-humanity-capstone
 art_pieces:
+- "/v1588446860/CC409F3C-25CD-48C9-A3EB-AA5FEC9D83ED_1_100_o_aiodfj.jpg"
 - "/v1588446738/92AA0DD0-1F22-4086-99B4-68E18DB000A2_melph1.jpg"
 - "/v1588447989/IMG_4043_ctnp4w.jpg"
 - "/v1588447991/IMG_4044_lujmcc.jpg"
