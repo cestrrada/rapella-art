@@ -17,7 +17,7 @@ artist_statement: "<p>In my recent body of work, I capture the essence of people
   among the viewers. This color palette is selected to avoid distraction from the
   personal interaction among the subjects within the work itself. Themes of animal
   equality, symbiotic friendship, and empowerment are threaded throughout my work.</p>"
-slug: ''
+slug: about-the-artist
 
 ---
 Madi Rapella is a digital and traditional artist from Park City, Utah. With her recent body of work, she focuses on conveying the stories of people and animals through photo-realistic portraiture and fantasy illustrations.
