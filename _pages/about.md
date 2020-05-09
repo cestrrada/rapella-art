@@ -3,7 +3,7 @@ title: About the Artist
 layout: about
 artist-image: "/v1574144729/IMG_1249-1_swmsud.jpg"
 statement-image: "/v1577918444/50024A70-D24B-4F26-875E-B0FE4B4A07D4_1_100_o_kne0px.jpg"
-resume: "/v1574142877/Madi_s_Resume_2019_bqs60i.pdf"
+resume: "/v1588983572/Madi_Rapella_s_Resume_mgfd0q.pdf"
 artist_statement: "<p>In my recent body of work, I capture the essence of people and
   animals through photo-realistic portraiture and illustrations. Through the use of
   traditional and digital media, I portray the subjects with a sharp attention to
