@@ -63,5 +63,6 @@ fields:
   description: Upload a single image. If this is part of a collection, specify the
     collection and upload the other images separately.
 pages:
+- _art/ezra.md
 - _art/fairy-in-the-forest.md
 - _art/portrait-study.md
